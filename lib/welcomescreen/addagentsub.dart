@@ -383,7 +383,7 @@ class _UserCreationScreenState extends State<UserCreation12> {
 
         var request = http.MultipartRequest(
           'POST',
-          Uri.parse('https://empjewellery.shop/createProfile'),
+          Uri.parse('http://localhost:2025/createProfile'),
         );
         request.fields['profileType'] = newProfileType;
         request.fields['amount'] = _registrationFee.toString();

@@ -90,7 +90,7 @@ class _PaymentPageState extends State<PaymentPage> {
     try {
       final response = await http.get(
         Uri.parse(
-          'https://empjewellery.shop/profilesDetails?profileType=customer',
+          'http://localhost:2025/profilesDetails?profileType=customer',
         ),
       );
 

@@ -72,7 +72,7 @@ class _UPIPaymentPageState extends State<UPIPaymentPage> {
 
     try {
       // Replace with your actual API endpoint
-      final apiUrl = 'https://empjewellery.shop/processPayment';
+      final apiUrl = 'http://localhost:2025/processPayment';
       
       // Prepare payment data
       final paymentData = {
